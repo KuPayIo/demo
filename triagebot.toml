@@ -2,6 +2,8 @@
 allow-unauthenticated = ["bug", "invalid", "question", "enhancement"]
 
 [assign]
+warn_non_default_branch = true
+contributing_url = "https://rustc-dev-guide.rust-lang.org/contributing.html"
 
 [note]
 
@@ -20,10 +22,6 @@ cc = [
 trigger_files = [
     "README.md"
 ]
-
-[assign]
-warn_non_default_branch = true
-contributing_url = "https://rustc-dev-guide.rust-lang.org/contributing.html"
 
 [assign.adhoc_groups]
 demo-team = [
