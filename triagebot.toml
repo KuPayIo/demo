@@ -27,6 +27,9 @@ trigger_files = [
 demo-team = [
     "@yn-bot",
 ]
+fallback = [
+    "@yn-bot"
+]
 
 [assign.owners]
 "/README.md" =                              ["@yn-bot"]
