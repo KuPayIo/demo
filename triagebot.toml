@@ -22,6 +22,7 @@ trigger_files = ["README.md"]
 
 [assign.adhoc_groups]
 demo-team = ["@yn-bot"]
+fallback = ["@yn-bot"]
 
 [assign.owners]
 "/README.md" =                              ["@yn-bot"]
