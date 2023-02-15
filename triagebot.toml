@@ -15,21 +15,14 @@ label = "invalid"
 
 [mentions."README.md"]
 message = "Some changes occurred in README"
-cc = [
-    "@yn-bot"]
+cc = ["@yn-bot"]
 
 [autolabel."documentation"]
-trigger_files = [
-    "README.md"
-]
+trigger_files = ["README.md"]
 
 [assign.adhoc_groups]
-demo-team = [
-    "@yn-bot",
-]
-fallback = [
-    "@yn-bot"
-]
+demo-team = ["@yn-bot"]
+fallback = ["@yn-bot"]
 
 [assign.owners]
 "/README.md" =                              ["@yn-bot"]
