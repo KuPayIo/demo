@@ -2,7 +2,7 @@
 
 This project is licensed under the [MIT license].
 
-[MIT license]: /blob/master/LICENSE
+[MIT license]: LICENSE
 
 ## Contribution
 
